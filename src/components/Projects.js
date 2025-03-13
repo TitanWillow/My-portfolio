@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import devta from "../assets/img/devta.webp";
+import devta from "../assets/img/devta.png";
 import cryptometrix from "../assets/img/cryptometrix.webp";
 import dealpredator from "../assets/img/dealpredator.webp";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -21,7 +21,8 @@ export const Projects = () => {
       title: "Devta",
       description: "An open-source developer toolkit offering a unified platform for everyday tasks like format conversion, hashing, minification, and time manipulation.",
       imgUrl: devta,
-      githubLink : "https://github.com/techrail/devta"
+      githubLink : "https://github.com/techrail/devta",
+      previewLink : "https://devta.titanwillow.top"
     },
     {
       title: "CryptoMetrix",
